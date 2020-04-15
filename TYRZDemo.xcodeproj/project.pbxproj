@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F30FD6CF0EB00041CBFB86C /* Pods_TYRZDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AB625EBFFC4CD5BAB3DEA5 /* Pods_TYRZDemoTests.framework */; };
+		997FACCBE75934296CF64B5D /* Pods_TYRZDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A53C3ADAED2BFA50D46812 /* Pods_TYRZDemoUITests.framework */; };
+		B2264D8D3ADC4E8D23CC08D2 /* Pods_TYRZDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FF5A821747E3CB3AE2E2D1 /* Pods_TYRZDemo.framework */; };
+		D4C948F824443F5C00D55C70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C948F724443F5C00D55C70 /* AppDelegate.m */; };
+		D4C948FB24443F5C00D55C70 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C948FA24443F5C00D55C70 /* SceneDelegate.m */; };
+		D4C948FE24443F5C00D55C70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C948FD24443F5C00D55C70 /* ViewController.m */; };
+		D4C9490124443F5D00D55C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C948FF24443F5D00D55C70 /* Main.storyboard */; };
+		D4C9490324443F5E00D55C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C9490224443F5E00D55C70 /* Assets.xcassets */; };
+		D4C9490624443F5E00D55C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C9490424443F5E00D55C70 /* LaunchScreen.storyboard */; };
+		D4C9490924443F5E00D55C70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C9490824443F5E00D55C70 /* main.m */; };
+		D4C9491324443F5E00D55C70 /* TYRZDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C9491224443F5E00D55C70 /* TYRZDemoTests.m */; };
+		D4C9491E24443F5E00D55C70 /* TYRZDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C9491D24443F5E00D55C70 /* TYRZDemoUITests.m */; };
+		D4C9492C244457F700D55C70 /* TYRZSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C9492B244457F600D55C70 /* TYRZSDK.framework */; };
+		D4C9492E244459E200D55C70 /* TYRZResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4C9492D244459E200D55C70 /* TYRZResource.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4C9490F24443F5E00D55C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4C948EB24443F5C00D55C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4C948F224443F5C00D55C70;
+			remoteInfo = TYRZDemo;
+		};
+		D4C9491A24443F5E00D55C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4C948EB24443F5C00D55C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4C948F224443F5C00D55C70;
+			remoteInfo = TYRZDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FF5A821747E3CB3AE2E2D1 /* Pods_TYRZDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYRZDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD215F8C38A086AA8F0B72F /* Pods-TYRZDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYRZDemo.debug.xcconfig"; path = "Target Support Files/Pods-TYRZDemo/Pods-TYRZDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		15A53C3ADAED2BFA50D46812 /* Pods_TYRZDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYRZDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC894C00604E90A03B32AA0 /* Pods-TYRZDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYRZDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-TYRZDemoUITests/Pods-TYRZDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43AB625EBFFC4CD5BAB3DEA5 /* Pods_TYRZDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYRZDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC98E3B7B36EF190CA6859D /* Pods-TYRZDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYRZDemo.release.xcconfig"; path = "Target Support Files/Pods-TYRZDemo/Pods-TYRZDemo.release.xcconfig"; sourceTree = "<group>"; };
+		75D1FF2B66A708C2B6895981 /* Pods-TYRZDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYRZDemoTests.release.xcconfig"; path = "Target Support Files/Pods-TYRZDemoTests/Pods-TYRZDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4C948F324443F5C00D55C70 /* TYRZDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYRZDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C948F624443F5C00D55C70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4C948F724443F5C00D55C70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4C948F924443F5C00D55C70 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D4C948FA24443F5C00D55C70 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D4C948FC24443F5C00D55C70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4C948FD24443F5C00D55C70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4C9490024443F5D00D55C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4C9490224443F5E00D55C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4C9490524443F5E00D55C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4C9490724443F5E00D55C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C9490824443F5E00D55C70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4C9490E24443F5E00D55C70 /* TYRZDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYRZDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C9491224443F5E00D55C70 /* TYRZDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRZDemoTests.m; sourceTree = "<group>"; };
+		D4C9491424443F5E00D55C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C9491924443F5E00D55C70 /* TYRZDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYRZDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C9491D24443F5E00D55C70 /* TYRZDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRZDemoUITests.m; sourceTree = "<group>"; };
+		D4C9491F24443F5E00D55C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C9492B244457F600D55C70 /* TYRZSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TYRZSDK.framework; sourceTree = "<group>"; };
+		D4C9492D244459E200D55C70 /* TYRZResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TYRZResource.bundle; path = TYRZSDK.framework/TYRZResource.bundle; sourceTree = "<group>"; };
+		D71062518AFB7B452A9D8C71 /* Pods-TYRZDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYRZDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-TYRZDemoTests/Pods-TYRZDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F096C3723F42F3FBB312F229 /* Pods-TYRZDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYRZDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TYRZDemoUITests/Pods-TYRZDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4C948F024443F5C00D55C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C9492C244457F700D55C70 /* TYRZSDK.framework in Frameworks */,
+				B2264D8D3ADC4E8D23CC08D2 /* Pods_TYRZDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C9490B24443F5E00D55C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F30FD6CF0EB00041CBFB86C /* Pods_TYRZDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C9491624443F5E00D55C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997FACCBE75934296CF64B5D /* Pods_TYRZDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CEC53426F9E246FBC868125 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05FF5A821747E3CB3AE2E2D1 /* Pods_TYRZDemo.framework */,
+				43AB625EBFFC4CD5BAB3DEA5 /* Pods_TYRZDemoTests.framework */,
+				15A53C3ADAED2BFA50D46812 /* Pods_TYRZDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A02A13A75FFA204E5DFAAE24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BD215F8C38A086AA8F0B72F /* Pods-TYRZDemo.debug.xcconfig */,
+				6AC98E3B7B36EF190CA6859D /* Pods-TYRZDemo.release.xcconfig */,
+				D71062518AFB7B452A9D8C71 /* Pods-TYRZDemoTests.debug.xcconfig */,
+				75D1FF2B66A708C2B6895981 /* Pods-TYRZDemoTests.release.xcconfig */,
+				F096C3723F42F3FBB312F229 /* Pods-TYRZDemoUITests.debug.xcconfig */,
+				3AC894C00604E90A03B32AA0 /* Pods-TYRZDemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4C948EA24443F5C00D55C70 = {
+			isa = PBXGroup;
+			children = (
+				D4C9492D244459E200D55C70 /* TYRZResource.bundle */,
+				D4C9492B244457F600D55C70 /* TYRZSDK.framework */,
+				D4C948F524443F5C00D55C70 /* TYRZDemo */,
+				D4C9491124443F5E00D55C70 /* TYRZDemoTests */,
+				D4C9491C24443F5E00D55C70 /* TYRZDemoUITests */,
+				D4C948F424443F5C00D55C70 /* Products */,
+				A02A13A75FFA204E5DFAAE24 /* Pods */,
+				3CEC53426F9E246FBC868125 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4C948F424443F5C00D55C70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4C948F324443F5C00D55C70 /* TYRZDemo.app */,
+				D4C9490E24443F5E00D55C70 /* TYRZDemoTests.xctest */,
+				D4C9491924443F5E00D55C70 /* TYRZDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4C948F524443F5C00D55C70 /* TYRZDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4C948F624443F5C00D55C70 /* AppDelegate.h */,
+				D4C948F724443F5C00D55C70 /* AppDelegate.m */,
+				D4C948F924443F5C00D55C70 /* SceneDelegate.h */,
+				D4C948FA24443F5C00D55C70 /* SceneDelegate.m */,
+				D4C948FC24443F5C00D55C70 /* ViewController.h */,
+				D4C948FD24443F5C00D55C70 /* ViewController.m */,
+				D4C948FF24443F5D00D55C70 /* Main.storyboard */,
+				D4C9490224443F5E00D55C70 /* Assets.xcassets */,
+				D4C9490424443F5E00D55C70 /* LaunchScreen.storyboard */,
+				D4C9490724443F5E00D55C70 /* Info.plist */,
+				D4C9490824443F5E00D55C70 /* main.m */,
+			);
+			path = TYRZDemo;
+			sourceTree = "<group>";
+		};
+		D4C9491124443F5E00D55C70 /* TYRZDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4C9491224443F5E00D55C70 /* TYRZDemoTests.m */,
+				D4C9491424443F5E00D55C70 /* Info.plist */,
+			);
+			path = TYRZDemoTests;
+			sourceTree = "<group>";
+		};
+		D4C9491C24443F5E00D55C70 /* TYRZDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4C9491D24443F5E00D55C70 /* TYRZDemoUITests.m */,
+				D4C9491F24443F5E00D55C70 /* Info.plist */,
+			);
+			path = TYRZDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4C948F224443F5C00D55C70 /* TYRZDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C9492224443F5E00D55C70 /* Build configuration list for PBXNativeTarget "TYRZDemo" */;
+			buildPhases = (
+				8A75B7516B44D41468978B4F /* [CP] Check Pods Manifest.lock */,
+				D4C948EF24443F5C00D55C70 /* Sources */,
+				D4C948F024443F5C00D55C70 /* Frameworks */,
+				D4C948F124443F5C00D55C70 /* Resources */,
+				F032853BA611B6D8D39035AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYRZDemo;
+			productName = TYRZDemo;
+			productReference = D4C948F324443F5C00D55C70 /* TYRZDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4C9490D24443F5E00D55C70 /* TYRZDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C9492524443F5E00D55C70 /* Build configuration list for PBXNativeTarget "TYRZDemoTests" */;
+			buildPhases = (
+				53B35EB65BFA1ACC2BD4D61B /* [CP] Check Pods Manifest.lock */,
+				D4C9490A24443F5E00D55C70 /* Sources */,
+				D4C9490B24443F5E00D55C70 /* Frameworks */,
+				D4C9490C24443F5E00D55C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4C9491024443F5E00D55C70 /* PBXTargetDependency */,
+			);
+			name = TYRZDemoTests;
+			productName = TYRZDemoTests;
+			productReference = D4C9490E24443F5E00D55C70 /* TYRZDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4C9491824443F5E00D55C70 /* TYRZDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C9492824443F5E00D55C70 /* Build configuration list for PBXNativeTarget "TYRZDemoUITests" */;
+			buildPhases = (
+				462AFFE41E9CEC370F9D561B /* [CP] Check Pods Manifest.lock */,
+				D4C9491524443F5E00D55C70 /* Sources */,
+				D4C9491624443F5E00D55C70 /* Frameworks */,
+				D4C9491724443F5E00D55C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4C9491B24443F5E00D55C70 /* PBXTargetDependency */,
+			);
+			name = TYRZDemoUITests;
+			productName = TYRZDemoUITests;
+			productReference = D4C9491924443F5E00D55C70 /* TYRZDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4C948EB24443F5C00D55C70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "承启通";
+				TargetAttributes = {
+					D4C948F224443F5C00D55C70 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D4C9490D24443F5E00D55C70 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D4C948F224443F5C00D55C70;
+					};
+					D4C9491824443F5E00D55C70 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D4C948F224443F5C00D55C70;
+					};
+				};
+			};
+			buildConfigurationList = D4C948EE24443F5C00D55C70 /* Build configuration list for PBXProject "TYRZDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4C948EA24443F5C00D55C70;
+			productRefGroup = D4C948F424443F5C00D55C70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4C948F224443F5C00D55C70 /* TYRZDemo */,
+				D4C9490D24443F5E00D55C70 /* TYRZDemoTests */,
+				D4C9491824443F5E00D55C70 /* TYRZDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4C948F124443F5C00D55C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C9492E244459E200D55C70 /* TYRZResource.bundle in Resources */,
+				D4C9490624443F5E00D55C70 /* LaunchScreen.storyboard in Resources */,
+				D4C9490324443F5E00D55C70 /* Assets.xcassets in Resources */,
+				D4C9490124443F5D00D55C70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C9490C24443F5E00D55C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C9491724443F5E00D55C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		462AFFE41E9CEC370F9D561B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TYRZDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53B35EB65BFA1ACC2BD4D61B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TYRZDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A75B7516B44D41468978B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TYRZDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F032853BA611B6D8D39035AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYRZDemo/Pods-TYRZDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYRZDemo/Pods-TYRZDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYRZDemo/Pods-TYRZDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4C948EF24443F5C00D55C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C948FE24443F5C00D55C70 /* ViewController.m in Sources */,
+				D4C948F824443F5C00D55C70 /* AppDelegate.m in Sources */,
+				D4C9490924443F5E00D55C70 /* main.m in Sources */,
+				D4C948FB24443F5C00D55C70 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C9490A24443F5E00D55C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C9491324443F5E00D55C70 /* TYRZDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C9491524443F5E00D55C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C9491E24443F5E00D55C70 /* TYRZDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4C9491024443F5E00D55C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4C948F224443F5C00D55C70 /* TYRZDemo */;
+			targetProxy = D4C9490F24443F5E00D55C70 /* PBXContainerItemProxy */;
+		};
+		D4C9491B24443F5E00D55C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4C948F224443F5C00D55C70 /* TYRZDemo */;
+			targetProxy = D4C9491A24443F5E00D55C70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4C948FF24443F5D00D55C70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4C9490024443F5D00D55C70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4C9490424443F5E00D55C70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4C9490524443F5E00D55C70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4C9492024443F5E00D55C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4C9492124443F5E00D55C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4C9492324443F5E00D55C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD215F8C38A086AA8F0B72F /* Pods-TYRZDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = E5KJ8HF8M5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TYRZDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC\n-ObjC\n",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqt.TYRZDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "CloudEdu(Development)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4C9492424443F5E00D55C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC98E3B7B36EF190CA6859D /* Pods-TYRZDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = E5KJ8HF8M5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TYRZDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC\n-ObjC\n",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqt.TYRZDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "CloudEdu(Development)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4C9492624443F5E00D55C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71062518AFB7B452A9D8C71 /* Pods-TYRZDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYRZDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqt.TYRZDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYRZDemo.app/TYRZDemo";
+			};
+			name = Debug;
+		};
+		D4C9492724443F5E00D55C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D1FF2B66A708C2B6895981 /* Pods-TYRZDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYRZDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqt.TYRZDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYRZDemo.app/TYRZDemo";
+			};
+			name = Release;
+		};
+		D4C9492924443F5E00D55C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F096C3723F42F3FBB312F229 /* Pods-TYRZDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYRZDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqt.TYRZDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYRZDemo;
+			};
+			name = Debug;
+		};
+		D4C9492A24443F5E00D55C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC894C00604E90A03B32AA0 /* Pods-TYRZDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TYRZDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqt.TYRZDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYRZDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4C948EE24443F5C00D55C70 /* Build configuration list for PBXProject "TYRZDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C9492024443F5E00D55C70 /* Debug */,
+				D4C9492124443F5E00D55C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C9492224443F5E00D55C70 /* Build configuration list for PBXNativeTarget "TYRZDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C9492324443F5E00D55C70 /* Debug */,
+				D4C9492424443F5E00D55C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C9492524443F5E00D55C70 /* Build configuration list for PBXNativeTarget "TYRZDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C9492624443F5E00D55C70 /* Debug */,
+				D4C9492724443F5E00D55C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C9492824443F5E00D55C70 /* Build configuration list for PBXNativeTarget "TYRZDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C9492924443F5E00D55C70 /* Debug */,
+				D4C9492A24443F5E00D55C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4C948EB24443F5C00D55C70 /* Project object */;
+}
